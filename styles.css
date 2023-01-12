@@ -46,6 +46,9 @@ body {
   left: 50%;
   top: 50%;
 }
+.link {
+  color: black;
+}
 
 @-webkit-keyframes rotate {
   100% {
