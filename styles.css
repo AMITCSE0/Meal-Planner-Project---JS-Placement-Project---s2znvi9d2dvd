@@ -1,1 +1,54 @@
+* {
+  box-sizing: border-box;
+}
 
+.heading {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding-right: 70vw;
+  font-size: 40px;
+  text-decoration: solid;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.footer {
+  background-color: red;
+  margin-top: auto;
+  width: 100%;
+  padding: 5px;
+  background-color: var(--primary);
+  color: var(--light);
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* loader */
+#loader {
+  height: 0;
+  width: 0;
+  padding: 15px;
+  border: 6px solid #ccc;
+  border-right-color: #888;
+  border-radius: 22px;
+  -webkit-animation: rotate 1s infinite linear;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
